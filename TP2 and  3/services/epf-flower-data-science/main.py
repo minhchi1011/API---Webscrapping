@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
 from src.app import get_application
 
+
 app: FastAPI = get_application()
 
 @app.get("/", include_in_schema=False)
