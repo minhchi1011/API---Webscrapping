@@ -14,7 +14,7 @@ os.makedirs(DATA_FOLDER, exist_ok=True)
 @router.get("/download-dataset", name="Download Iris Dataset")
 def download_dataset():
     """
-    Tải dataset Iris từ Kaggle và lưu vào thư mục src/data
+    Download dataset Iris from Kaggle and store at src/data
     """
     try:
         # Thiết lập Kaggle API
