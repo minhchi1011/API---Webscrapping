@@ -1,0 +1,14 @@
+{
+    "classification_model": "LogisticRegression",
+    "parameters": {
+        "penalty": "l2",
+        "dual": false,
+        "tol": 0.0001,
+        "C": 1.0,
+        "fit_intercept": true,
+        "solver": "lbfgs",
+        "max_iter": 100,
+        "multi_class": "auto",
+        "random_state": 42
+    }
+}
